@@ -1,3 +1,5 @@
+<img src="assets/img/pckp-logo-96.png" width="72" height="72" alt="PCKP logo">
+
 # pckp.net
 
 The website for PCKP Ltd: infrastructure and software, from Banbury, Oxfordshire.
