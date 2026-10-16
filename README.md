@@ -1,4 +1,4 @@
-<img src="assets/img/pckp-logo-96.png" width="72" height="72" alt="PCKP logo">
+<img src="assets/img/pckp-logo.svg" width="72" height="72" alt="PCKP logo">
 
 # pckp.net
 
@@ -11,7 +11,7 @@ Live at [pckp.net](https://pckp.net/). Our product, DashyNMS, has its own site a
 - **Wording:** everything on the homepage is in `index.html`.
 - **Colours and fonts:** set at the top of `assets/css/style.css`.
 - **DashyNMS screenshot:** replace `assets/img/dashynms-dashboard.webp`.
-- **Logo:** `assets/img/pckp-logo-96.png`, plus `favicon.png` and `apple-touch-icon.png` for browser tabs and phone home screens.
+- **Logo:** `assets/img/pckp-logo.svg` is the master, with the letters in Sora Bold. There are PNG copies at 512 and 1024 pixels, plus `favicon.png` and `apple-touch-icon.png` for browser tabs and phone home screens.
 
 ## Publishing
 
