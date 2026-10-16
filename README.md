@@ -1,35 +1,22 @@
+<img src="assets/img/pckp-logo-96.png" width="72" height="72" alt="PCKP logo">
+
 # pckp.net
 
-Company site for PCKP Ltd, served by GitHub Pages from the root of `main` at [pckp.net](https://pckp.net/).
+The website for PCKP Ltd: infrastructure and software, from Banbury, Oxfordshire.
 
-It's plain HTML and CSS, with no build step. It shares its fonts and colour tokens with [dashynms.pckp.net](https://dashynms.pckp.net/).
+Live at [pckp.net](https://pckp.net/). Our product, DashyNMS, has its own site at [dashynms.pckp.net](https://dashynms.pckp.net/), and the two share the same look.
 
-## Layout
+## Making changes
 
-| Path | What it is |
-| --- | --- |
-| `index.html` | The page |
-| `404.html` | Shown by GitHub Pages for unknown URLs |
-| `assets/css/style.css` | All styles; colours and fonts are tokens at the top |
-| `assets/fonts/` | Self-hosted Sora, IBM Plex Sans and IBM Plex Mono (SIL OFL, Latin subset) |
-| `assets/img/` | Logo, DashyNMS mark and screenshot |
-| `CNAME` | Custom domain for GitHub Pages |
-| `.nojekyll` | Serves files as-is instead of running Jekyll |
-
-## Preview locally
-
-Paths are root-relative, so use a local server rather than opening the file directly:
-
-```sh
-python3 -m http.server 8000
-```
-
-Then open <http://localhost:8000>.
-
-## Editing
-
+- **Wording:** everything on the homepage is in `index.html`.
+- **Colours and fonts:** set at the top of `assets/css/style.css`.
 - **DashyNMS screenshot:** replace `assets/img/dashynms-dashboard.webp`.
+- **Logo:** `assets/img/pckp-logo-96.png`, plus `favicon.png` and `apple-touch-icon.png` for browser tabs and phone home screens.
 
-## Deploying
+## Publishing
 
-Push to `main`. GitHub Pages publishes the repository root.
+Anything merged into `main` goes live at pckp.net within a few minutes, through GitHub Pages.
+
+## Contact
+
+[hello@pckp.net](mailto:hello@pckp.net)
