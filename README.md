@@ -1,8 +1,8 @@
 # pckp.net
 
-Personal site for Thomas Pickup, served by GitHub Pages from the root of `main` at [pckp.net](https://pckp.net/).
+Company site for PCKP Ltd, served by GitHub Pages from the root of `main` at [pckp.net](https://pckp.net/).
 
-It's plain HTML, CSS and a little JavaScript, with no build step.
+It's plain HTML and CSS, with no build step. It shares its fonts and colour tokens with [dashynms.pckp.net](https://dashynms.pckp.net/).
 
 ## Layout
 
@@ -11,9 +11,8 @@ It's plain HTML, CSS and a little JavaScript, with no build step.
 | `index.html` | The page |
 | `404.html` | Shown by GitHub Pages for unknown URLs |
 | `assets/css/style.css` | All styles; colours and fonts are tokens at the top |
-| `assets/js/topology.js` | Draws and animates the network diagram in the hero |
-| `assets/fonts/` | Self-hosted Bricolage Grotesque, Instrument Sans and JetBrains Mono (SIL OFL, Latin subset) |
-| `assets/img/` | Logo, DashyNMS screenshots and the social sharing image |
+| `assets/fonts/` | Self-hosted Sora, IBM Plex Sans and IBM Plex Mono (SIL OFL, Latin subset) |
+| `assets/img/` | Logo, DashyNMS mark and screenshot |
 | `CNAME` | Custom domain for GitHub Pages |
 | `.nojekyll` | Serves files as-is instead of running Jekyll |
 
@@ -29,8 +28,7 @@ Then open <http://localhost:8000>.
 
 ## Editing
 
-- **Network diagram:** devices and links are the `nodes` and `links` lists at the top of `assets/js/topology.js`. Add `'down'` as a third item on a link to draw it as a failed link, or `status: 'warn'` on a node for an amber status light.
-- **DashyNMS screenshots:** replace the files in `assets/img/`. Keep `dashynms-dashboard.webp` and `.png` in step.
+- **DashyNMS screenshot:** replace `assets/img/dashynms-dashboard.webp`.
 
 ## Deploying
 
